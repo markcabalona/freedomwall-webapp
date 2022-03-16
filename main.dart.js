@@ -72384,7 +72384,7 @@ $.A.toString
 return new A.JW(1/q.gtP(q),1/(0.05*p))})
 s($,"aEB","aqF",()=>A.Ch(0.78)/A.Ch(0.9))
 r($,"aHE","ajG",()=>"https://fastapi-freedomwall.herokuapp.com/")
-r($,"aI3","agc",()=>"ws://fastapi-freedomwall.herokuapp.com/")
+r($,"aI3","agc",()=>"wss://fastapi-freedomwall.herokuapp.com/")
 s($,"aHY","kJ",()=>$.aqT())
 s($,"aF4","aqT",()=>new A.aac(A.b([new A.Pn("baseScope",A.z(t.ob,A.R("av<e2,kx<I,@,@>>")))],A.R("t<Pn>")),A.alg(t.z)))
 s($,"aEt","aqA",()=>A.bU("^[\\w!#%&'*+\\-.^`|~]+$",!0))
