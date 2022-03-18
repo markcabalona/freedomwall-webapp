@@ -65309,7 +65309,7 @@ gc_(){return B.c.P(A.bF.prototype.gc_.call(this),A.b([this.a],t.G))}}
 A.vx.prototype={
 I(a,b){var s,r,q=null,p=b.U(t.w).f.a.a,o=A.ahv(B.jt,20,!1,new A.Yq(b)),n=A.ali(B.jJ,A.iX(B.vL,new A.Yr(b),q),100),m=this.c,l=J.ax(m)
 if(l.gJ(m))m=B.Bx
-else{s=p*0.05
+else{s=p*0.025
 r=p<1000?600:400
 m=l.gm(m)
 m=new A.Gd(new A.a5U(r),new A.a5L(new A.Ys(this),m,!0,!0,!0),new A.aU(s,20,s,20),B.au,!1,q,!0,B.wt,!1,q,m,B.ai,B.uV,q,B.W,q)}return A.anK(n,m,o)}}
@@ -65368,7 +65368,7 @@ else return B.jg}else return new A.dW("State: "+s.j(0),null)},
 $S:148}
 A.yd.prototype={
 I(a,b){var s=null,r=b.U(t.w).f,q=A.ahv(B.jt,20,!1,new A.a60(b))
-r=r.a.a*0.05
+r=r.a.a*0.025
 return A.anK(A.ali(B.jJ,A.iX(B.vL,new A.a61(b),s),100),A.anQ(A.io(new A.f_(new A.aU(r,20,r,20),new A.lu(this.c,800,!0,s),s),s,s)),q)}}
 A.a60.prototype={
 $0(){A.aqW(new A.a6_(),this.a,t.z)},
@@ -65497,7 +65497,7 @@ s.bl()},
 I(a,b){var s,r,q,p,o=this,n=null,m=A.aAy(B.Ro,n),l=A.h7(m.pH(o.a.c)+" likes",n,n,n,n,n,n),k=A.h7(m.pH(o.a.d)+" dislikes",n,n,n,n,n,n),j=A.ku(new A.ac7(b))
 j=A.mr(n,n,A.ku(new A.ac8()),n,n,n,n,n,n,n,n,n,j,n,n,n,n,n,n)
 s=t.F
-j=A.h4(A.nB(A.b([l,k,A.iX(A.h7(m.pH(o.a.f.length)+" comments",n,n,n,B.MX,n,n),new A.ac9(o),j)],s),B.az,B.oF,B.ak),20,n)
+j=A.h4(A.nB(A.b([l,k,A.iX(A.h7(m.pH(o.a.f.length)+" comments",n,n,n,B.MX,n,n),new A.ac9(o),j)],s),B.az,B.oF,B.ak),30,n)
 k=A.ah9(A.Q(b).b)
 l=A.Q(b).b
 l=A.ao(64,l.gl(l)>>>16&255,l.gl(l)>>>8&255,l.gl(l)&255)
@@ -65630,7 +65630,7 @@ p=B.e.j(q.a)
 o=l.a.c
 n=A.a(l.d,j)
 m=l.a.c
-return A.io(new A.ep(new A.aC(400,s,250,1/0),new A.De(r.b,10,new A.f_(B.Bm,A.oX(A.b([new A.Hx(q.r,q.b,p,k),new A.x2(n,o.c,k),new A.x1(m.e,m.f,m.a,m.x,A.a(l.d,j),k)],t.F),B.dE,B.fZ,B.ak),k),k),k),k,k)}}
+return A.io(new A.ep(new A.aC(400,s,300,1/0),new A.De(r.b,10,new A.f_(B.Bm,A.oX(A.b([new A.Hx(q.r,q.b,p,k),new A.x2(n,o.c,k),new A.x1(m.e,m.f,m.a,m.x,A.a(l.d,j),k)],t.F),B.dE,B.fZ,B.ak),k),k),k),k,k)}}
 A.C_.prototype={
 aM(){this.bl()
 this.mp()},
